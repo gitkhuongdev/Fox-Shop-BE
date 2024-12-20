@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/SFKT_transparent.png" type="image/gif" sizes="100%" border-radius="50%">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SKFTshop</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/SFKT_transparent.png" alt="Bootstrap" width="60" height="60">
+                    </a>
+                </nav>
+
+                <button class="navbar-toggler button-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="contact.html"><i
+                                    class="fa-solid fa-envelope-open-text"></i> Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="faq.html"><i
+                                    class="fa-solid fa-circle-question"></i> FAQ</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="blog.html"><i
+                                    class="fa-solid fa-book-open"></i> Blog</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="shop.html"><i
+                                    class="fa-solid fa-store"></i> Shop</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <div class="search-icon">
+                                <a class="nav-link nav-hover  " aria-current="page" href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <input type="search" class="form-control search-input" placeholder="Search...">
+                            </div>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="wishlist.html"><i
+                                    class="fa-solid fa-heart"></i></a>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="cart.html">
+                                <i class="fa-solid fa-cart-shopping position-relative cart-icon">
+                                    <span class="position-absolute  badge ms-auto badge_content">
+                                        3
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample"><i
+                                    class="fa-solid fa-user"></i></a>
+                            <div class="dropdown-menu login_box" id="collapseWidthExample">
+                                <a class="dropdown-item login_box-item" href="signin.html" id="signIn">Sign in</a>
+                                <a class="dropdown-item login_box-item" href="login.html" id="logIn">Log in</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="minibanner pt-4 pb-3 justify-content-center">
+        <h6 class="text-center minibanner_text">⚡️ HAPPY HOLIDAY DEALS ON EVERYTHING ⚡️</h6>
+    </div>
+
+    <!-- LINK  -->
+    <section class="mt-1 ">
+        <div class="container">
+            <div class="row">
+                <!-- FILTER LIST -->
+                <div class="row align-items-center mb-2 mt-4">
+                    <div class="col-12 col-md">
+
+                        <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-gray-500 link_page "
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="cart.html">Shopping Cart</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5"> 
+        <div class="container">
+            <!-- Title -->
+            <div class="row">
+                <div class="col">
+                    <h3 class="mb-4 text-center">Shopping Cart</h3>
+                </div>
+            </div>
+
+            <!-- Cart -->
+
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="list-group list-group-flush list-group-lg">
+                        <div class="list-group-item my-4">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <a href="detail.html">
+                                        <img src="assets/image/something (1).jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="col">
+                                    <div class="d-flex mb-2 fw-normal">
+                                        <a href="detail.html" class="text-body">Cotton floral</a>
+                                        <span class="ms-auto text-gray-500 fw-normal">$50.00</span>
+                                    </div>
+                                    <p class="mb-3 text-body-secondary">
+                                        Size: M
+                                        <br>
+                                        Color: Red
+                                    </p>
+
+                                    <div class="d-flex align-items-center">
+                                        <input type="number" aria-label="quantity" value="0" min="1" max="100"
+                                            class="button p-2">
+
+                                        <a href="#" class="fs-xs text-gray-400 ms-auto link_hover fz-sm">
+                                            <i class="fa-solid fa-xmark"></i> Remove
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group list-group-flush list-group-lg  mb-3">
+                        <div class="list-group-item my-4">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <a href="detail.html">
+                                        <img src="assets/image/something (7).jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="col">
+                                    <div class="d-flex mb-2 fw-normal">
+                                        <a href="detail.html" class="text-body">Cotton floral</a>
+                                        <span class="ms-auto text-gray-500 fw-normal">$80.00</span>
+                                    </div>
+                                    <p class="mb-3 text-body-secondary">
+                                        Size: M
+                                        <br>
+                                        Color: Green
+                                    </p>
+
+                                    <div class="d-flex align-items-center">
+                                        <input type="number" aria-label="quantity" value="0" min="1" max="100"
+                                            class="button p-2">
+
+                                        <a href="#" class="fs-xs text-gray-400 ms-auto link_hover fz-sm">
+                                            <i class="fa-solid fa-xmark"></i> Remove
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row align-items-end justify-content-between mb-5 mb-md-0">
+                        <div class="col-12 col-md-7">
+                            <form action="" class="mb-7 mb-md-0">
+                                <label for="cartCouponCode" class="form-label fz fw-semibold">Coupon Code:</label>
+                                <div class="row row gx-5">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-sm" id="cartCouponCode"
+                                            placeholder="Enter Your Coupon *">
+                                    </div>
+
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-sm btn-dark button">Apply</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-4 offset-lg-1">
+                    <div class="card mb-4 bg-light button">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span>Subtotal</span>
+                                    <span class="ms-auto fz mb-3">$90.00</span>
+                                </li>
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span>Tax</span>
+                                    <span class="ms-auto fz mb-3">$00.00</span>
+                                </li>
+
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span class="fz fw-semibold ">Total</span>
+                                    <span class="ms-auto fz mb-3">$90.00</span>
+                                </li>
+                                <li class="list-group-item d-flex bg-light text-black mt-3 text-center">
+                                    <span class="fz-sm text-gray-500 ">Shipping cost calculated at Checkout *</span>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <a href="checkout.html" class="btn button mt-4 p-3 w-100 btn-dark mb-2">
+                        Proceed to Checkout
+                    </a>
+
+                    <a href="shop.html" class="btn btn-sm px-2 fw-medium  text-body link_hover"><i
+                            class="fa-solid fa-arrow-left-long"></i> Continue Shopping </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Near Footer -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-truck text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">FREE SHIPPING</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">From all orders over $100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-retweet text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">FREE RETURN</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">Return money within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-lock text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">SECURE SHOPPING</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">You're in safe hands</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-tags text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">OVER 10,000 STYLES</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">We have everything you need</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- FOOTER -->
+        <footer class="footer_background bg-dark bg-cover pt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                        <h5 class="mb-5 text-center text-white">Want style Ideas and Treats?</h5>
+                        <form action="" class="mb-5">
+                            <div class="row gx-5 align-items-start">
+                                <div class="col w-50">
+                                    <input type="email" class="form-control form-control-gray-700 form-control-lg" placeholder="Enter Email">
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-gray-500 btn-lg">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                        <h4 class="mb-5 text-white">SKFTshop.</h4>
+                        <ul class="list-inline mb-3 mb-md-0 footer_icon">
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-messenger"></i></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">SUPPORT</h6>
+                            <li >
+                                <a href="#" class="text-gray-400 footer_text">Contact US</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">FAQs</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Size Guide</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Shipping & Return</a>
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">SHOP</h6>
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Men's</a>
+                            </li>
+    
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Shopping Women's</a>
+                            </li>
+    
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Shopping Kid's</a>
+                            </li>
+    
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Shopping Discounts</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">COMPANY</h6>
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Our Story</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Careers</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Terms & Conditions</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Privacy & Cookie policy</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">CONTACT</h6>
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">1-22222-3333</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">2-3333-44444</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">help@sfktshop.com</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="footer_line mt-5 mb-3">
+                <div class="line mb-3"></div>
+                <div class="row justify-content-center align-items-center">
+                    <p class="text-center footer_text-end">© 2024 All rights reserved. Designed by Sofk.</p>
+                </div>
+            </div>
+        </footer>
+
+
+    <script src="https://kit.fontawesome.com/84236ec286.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

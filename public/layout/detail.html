@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/SFKT_transparent.png" type="image/gif" sizes="100%" border-radius="50%">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SKFTshop</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/SFKT_transparent.png" alt="Bootstrap" width="60" height="60">
+                    </a>
+                </nav>
+
+                <button class="navbar-toggler button-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="contact.html"><i
+                                    class="fa-solid fa-envelope-open-text"></i> Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="faq.html"><i
+                                    class="fa-solid fa-circle-question"></i> FAQ</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="blog.html"><i
+                                    class="fa-solid fa-book-open"></i> Blog</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="shop.html"><i
+                                    class="fa-solid fa-store"></i> Shop</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <div class="search-icon">
+                                <a class="nav-link nav-hover  " aria-current="page" href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <input type="search" class="form-control search-input" placeholder="Search...">
+                            </div>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="wishlist.html"><i
+                                    class="fa-solid fa-heart"></i></a>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="cart.html">
+                                <i class="fa-solid fa-cart-shopping position-relative cart-icon">
+                                    <span class="position-absolute  badge ms-auto badge_content">
+                                        3
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample"><i
+                                    class="fa-solid fa-user"></i></a>
+                            <div class="dropdown-menu login_box" id="collapseWidthExample">
+                                <a class="dropdown-item login_box-item" href="signin.html" id="signIn">Sign in</a>
+                                <a class="dropdown-item login_box-item" href="login.html" id="logIn">Log in</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="minibanner pt-4 pb-3 justify-content-center">
+        <h6 class="text-center minibanner_text">⚡️ HAPPY HOLIDAY DEALS ON EVERYTHING ⚡️</h6>
+    </div>
+
+
+    <!-- LINK  -->
+    <section class="py-1">
+        <div class="container">
+
+            <!-- LINK -->
+            <div class="row">
+                <!-- FILTER LIST -->
+                <div class="row align-items-center mb-2 mt-4">
+                    <div class="col-12 col-md">
+
+                        <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-gray-500 link_page "
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="#">Womens' Clothing</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="#">Leather Sneakers</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- IMAGE DETAIL -->
+    <section class="mb-5">
+        <div class="container">
+            <div class="col-12">
+                <div class="row">
+                    <!-- IMAGE -->
+                    <div class="col-12 col-md-6 mb-5">
+
+                        <div class=" tab-content mt-2">
+                            <!-- Content for Image 1 -->
+                            <div class="tab-pane fade show active" id="image1">
+                                <img src="assets/image/something (6).jpg" alt="Image 1" class="img-fluid">
+                            </div>
+                            <!-- Content for Image 2 -->
+                            <div class="tab-pane fade" id="image2">
+                                <img src="assets/image/something (7).jpg" alt="Image 2" class="img-fluid">
+                            </div>
+                            <!-- Content for Image 3 -->
+                            <div class="tab-pane fade" id="image3">
+                                <img src="assets/image/something (5).jpg" alt="Image 3" class="img-fluid">
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="nav nav-tabs gap-3 mt-3" id="imageTabs">
+
+                            <a class="active " id="tab1" data-bs-toggle="tab" href="#image1" role="presentation">
+                                <img style="width: 90px;" src="assets/image/something (6).jpg" alt="Image 1"
+                                    class="img-fluid border-0 p-0 rounded-0 presentation">
+                            </a>
+
+
+                            <a class="" id="tab2" data-bs-toggle="tab" href="#image2" role="presentation">
+                                <img style="width: 90px;" src="assets/image/something (7).jpg" alt="Image 2"
+                                    class="img-fluid border-0 p-0 rounded-0 presentation">
+                            </a>
+
+
+                            <a class="" id="tab3" data-bs-toggle="tab" href="#image3" role="presentation">
+                                <img style="width: 90px;" src="assets/image/something (5).jpg" alt="Image 3"
+                                    class="img-fluid border-0 p-0 rounded-0 presentation">
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CHOOSE -->
+                    <div class="col-12 col-md-6 ps-lg-5">
+                        <div class="row mb-1">
+                            <div class="col">
+                                <a href="shop.html" class="text-gray-400 link_page fz">Sneakers</a>
+                            </div>
+                            <div class="col-auto">
+                                <div class="rating fz-sm text-black-50">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <a href="" class="fz-sm text-reset ms-2">Reviews (7)</a>
+                            </div>
+                        </div>
+
+                        <h3 class="mt-3 text-black mb-5">Cyberpunk Fashion chatVĐ</h3>
+
+                        <div class="mb-5">
+                            <span class="fw-medium text-gray-400 text-decoration-line-through fz">$150.00</span>
+                            <span class="ms-1 fw-semibold text-primary fz-lg">$100.00</span>
+                            <span class="fs-sm ms-1 fz-sm">(In Stock)</span>
+                        </div>
+
+                        <form>
+                            <!--CHOOSE COLOR -->
+                            <div class="form-group">
+                                <div class="col-12 col-md-6 mb-5">
+                                    <div style="width: 120px;" class="d-inline-flex justify-content-between">Color:
+                                        <div class=" tab-content">
+                                            <div class="tab-pane fade show active fw-semibold" id="color1">
+                                                Black
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="color2">
+                                                White
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="color3">
+                                                Red
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="color4">
+                                                Blue
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="color5">
+                                                Yellow
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="color6">
+                                                Green
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="color7">
+                                                Brown
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="nav nav-tabs gap-3 mt-3 col-xl-6 col-md-6 col-sm-4" id="imageTabs">
+                                        <a class="active " id="tab1" data-bs-toggle="tab" href="#color1"
+                                            role="presentation">
+                                            <div class="color color_black"></div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#color2" role="presentation">
+                                            <div class="color color_white"></div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#color3" role="presentation">
+                                            <div class="color color_red"></div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#color4" role="presentation">
+                                            <div class="color color_blue"></div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#color5" role="presentation">
+                                            <div class="color color_yellow"></div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#color6" role="presentation">
+                                            <div class="color color_green"></div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#color7" role="presentation">
+                                            <div class="color color_brown"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- CHOOSE SIZE -->
+                            <div class="form-group mb-5">
+                                <div class="col-12 col-md-12 mb-5">
+                                    <div class="d-inline-flex justify-content-between gap-2">Size:
+                                        <div class=" tab-content">
+                                            <div class="tab-pane fade show active fw-semibold" id="size1">
+                                                6
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size2">
+                                                6.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size3">
+                                                7
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size4">
+                                                7.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size5">
+                                                8
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size6">
+                                                8.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size7">
+                                                9
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size8">
+                                                9.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size9">
+                                                10
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size10">
+                                                10.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size11">
+                                                11
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size12">
+                                                11.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size13">
+                                                12
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size14">
+                                                12.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size15">
+                                                13
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size16">
+                                                13.5
+                                            </div>
+                                            <div class="tab-pane fade fw-semibold" id="size17">
+                                                14
+                                            </div>
+                                        </div>
+                                        <span class="fw-semibold">US</span>
+                                    </div>
+
+                                    <div class="nav nav-tabs gap-3 mt-3 col-xl-12 col-md-12 col-sm-12" id="imageTabs">
+                                        <a class="active " id="tab1" data-bs-toggle="tab" href="#size1"
+                                            role="presentation">
+                                            <div class="size text-gray-400 fz">6</div>
+                                        </a>
+                                        <a class="disabled " id="tab2" data-bs-toggle="tab" href="#size2"
+                                            role="presentation">
+                                            <div class="size size_over text-gray-400 fz text-decoration-line-through ">
+                                                6.5</div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size3" role="presentation">
+                                            <div class="size text-gray-400 fz">7</div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size4" role="presentation">
+                                            <div class="size text-gray-400 fz">7.5</div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size5" role="presentation">
+                                            <div class="size text-gray-400 fz">8</div>
+                                        </a>
+                                        <a class="disabled" id="tab2" data-bs-toggle="tab" href="#size6"
+                                            role="presentation">
+                                            <div
+                                                class=" size size_over text-gray-400 fz text-decoration-line-through  ">
+                                                8.5</div>
+                                        </a>
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size7" role="presentation">
+                                            <div class="size text-gray-400 fz">9</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size8" role="presentation">
+                                            <div class="size text-gray-400 fz">9.5</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size9" role="presentation">
+                                            <div class="size text-gray-400 fz">10</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size10" role="presentation">
+                                            <div class="size text-gray-400 fz">10.5</div>
+                                        </a>
+
+                                        <a class="disabled" id="tab2" data-bs-toggle="tab" href="#size11"
+                                            role="presentation">
+                                            <div
+                                                class=" size size_over text-gray-400 fz text-decoration-line-through  ">
+                                                11</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size12" role="presentation">
+                                            <div class="size text-gray-400 fz">11.5</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size13" role="presentation">
+                                            <div class="size text-gray-400 fz">12</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size14" role="presentation">
+                                            <div class="size text-gray-400 fz">12.5</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size15" role="presentation">
+                                            <div class="size text-gray-400 fz">13</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size16" role="presentation">
+                                            <div class="size text-gray-400 fz">13.5</div>
+                                        </a>
+
+                                        <a class="" id="tab2" data-bs-toggle="tab" href="#size17" role="presentation">
+                                            <div class="size text-gray-400 fz">14</div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Button trigger modal -->
+
+                                <button type="button" class="btn text-black size_chart text-decoration-underline"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="assets/icon-ruler.svg" alt=""> Size chart
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5 " id="exampleModalLabel">Size chart</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body p-5">
+                                                <table class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th style="width: 550px;">ASIA</th>
+                                                            <th style="width: 550px;">US</th>
+                                                            <th style="width: 550px;">UK</th>
+                                                            <th style="width: 550px;">(cm)</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <!-- Add rows for sizes 5 to 14 -->
+                                                        <tr>
+                                                            <td>36</td>
+                                                            <td>5.5</td>
+                                                            <td>3.5</td>
+                                                            <td>22.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>37</td>
+                                                            <td>6.5</td>
+                                                            <td>4.5</td>
+                                                            <td>23.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>38</td>
+                                                            <td>7.5</td>
+                                                            <td>5.5</td>
+                                                            <td>24.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>39</td>
+                                                            <td>8.5</td>
+                                                            <td>6.5</td>
+                                                            <td>25.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>40</td>
+                                                            <td>9.5</td>
+                                                            <td>7.5</td>
+                                                            <td>26.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>41</td>
+                                                            <td>10.5</td>
+                                                            <td>8.5</td>
+                                                            <td>27.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>42</td>
+                                                            <td>11.5</td>
+                                                            <td>9.5</td>
+                                                            <td>28.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>43</td>
+                                                            <td>12.5</td>
+                                                            <td>10.5</td>
+                                                            <td>29.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>44</td>
+                                                            <td>13.5</td>
+                                                            <td>11.5</td>
+                                                            <td>30.5</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>45</td>
+                                                            <td>14.5</td>
+                                                            <td>12.5</td>
+                                                            <td>31.5</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- ADD CART -->
+                            <div class="row gx-5 mb-3">
+                                <div class="col-12 col-lg-auto">
+                                    <input type="number" aria-label="quantity" value="0" min="1" max="100"
+                                        class="form-control p-3 w-100">
+                                </div>
+
+                                <div class="col-12 col-lg-auto">
+                                    <a href="cart.html" class="button btn w-100 btn-dark mb-2 p-3">
+                                        Add to Cart <i class="fa-solid fa-cart-shopping fa-bounce"></i>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-lg-auto">
+                                    <button class="button btn btn-light w-100 mb-2 p-3" type="submit"
+                                        data-bs-toggle="button">
+                                        Wishlist <i class="fa-regular fa-heart "></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- DESCRIPTION -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="nav nav-pills mb-3 nav-overflow justify-content-center justify-content-md-center border-bottom"
+                        id="pills-tab" role="tablist">
+                        <div class="nav-item" role="presentation">
+                            <button class="nav-link button_2 fw-semibold fz-sm active" id="description-tab"
+                                data-bs-toggle="pill" data-bs-target="#description" type="button" role="tab"
+                                aria-controls="description" aria-selected="true">Description</button>
+                        </div>
+                        <div class="nav-item" role="presentation">
+                            <button class="nav-link button_2 fw-semibold fz-sm" id="sizeandfit-tab"
+                                data-bs-toggle="pill" data-bs-target="#sizeandfit" type="button" role="tab"
+                                aria-controls="sizeandfit" aria-selected="false">Size and Fit</button>
+                        </div>
+                        <div class="nav-item" role="presentation">
+                            <button class="nav-link button_2 fw-semibold fz-sm" id="shipping-tab" data-bs-toggle="pill"
+                                data-bs-target="#shipping" type="button" role="tab" aria-controls="shipping"
+                                aria-selected="false">Shipping</button>
+                        </div>
+
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="description" role="tabpanel"
+                            aria-labelledby="description-tab" tabindex="0">
+                            <div class="row justify-content-center py-2">
+                                <div class="col-12 col-lg-10 col-xl-8">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-gray-500 fz-sm">
+                                                Won't herb first male seas, beast. Let upon, female upon third fifth
+                                                every. Man subdue rule after years herb after form. And image may,
+                                                morning. Behold in tree day sea that together cattle whose. Fifth
+                                                gathering brought bearing. Abundantly creeping whose. Beginning form
+                                                have void two. A whose.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="sizeandfit" role="tabpanel" aria-labelledby="sizeandfit-tab"
+                            tabindex="0">
+                            <div class="row justify-content-center py-2">
+                                <div class="col-12 col-lg-10 col-xl-8">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <h6>Fitting Information</h6>
+                                            <ul class="fz-sm text-gray-500">
+                                                <li>Upon seas hath every years have whose subdue creeping they're it
+                                                    were.</li>
+                                                <li>Make great day bearing.</li>
+                                                <li>For the moveth is days don't said days.</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <h6>Model measurements:</h6>
+                                            <ul class="fz-sm text-gray-500">
+                                                <li>Height: 1.80 m</li>
+                                                <li>Bust/Chest: 89 cm</li>
+                                                <li>Hips: 91 cm</li>
+                                                <li>Waist: 65 cm</li>
+                                                <li>Model size: M</li>
+                                            </ul>
+                                            <!-- Button trigger modal -->
+
+                                            <button type="button"
+                                                class="btn text-black size_chart text-decoration-underline"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <img src="assets/icon-ruler.svg" alt=""> Size chart
+                                            </button>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h1 class="modal-title fs-5 " id="exampleModalLabel">Size
+                                                                chart</h1>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body p-5">
+                                                            <table class="table table-bordered table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th style="width: 550px;">ASIA</th>
+                                                                        <th style="width: 550px;">US</th>
+                                                                        <th style="width: 550px;">UK</th>
+                                                                        <th style="width: 550px;">(cm)</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <!-- Add rows for sizes 5 to 14 -->
+                                                                    <tr>
+                                                                        <td>36</td>
+                                                                        <td>5.5</td>
+                                                                        <td>3.5</td>
+                                                                        <td>22.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>37</td>
+                                                                        <td>6.5</td>
+                                                                        <td>4.5</td>
+                                                                        <td>23.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>38</td>
+                                                                        <td>7.5</td>
+                                                                        <td>5.5</td>
+                                                                        <td>24.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>39</td>
+                                                                        <td>8.5</td>
+                                                                        <td>6.5</td>
+                                                                        <td>25.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>40</td>
+                                                                        <td>9.5</td>
+                                                                        <td>7.5</td>
+                                                                        <td>26.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>41</td>
+                                                                        <td>10.5</td>
+                                                                        <td>8.5</td>
+                                                                        <td>27.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>42</td>
+                                                                        <td>11.5</td>
+                                                                        <td>9.5</td>
+                                                                        <td>28.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>43</td>
+                                                                        <td>12.5</td>
+                                                                        <td>10.5</td>
+                                                                        <td>29.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>44</td>
+                                                                        <td>13.5</td>
+                                                                        <td>11.5</td>
+                                                                        <td>30.5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>45</td>
+                                                                        <td>14.5</td>
+                                                                        <td>12.5</td>
+                                                                        <td>31.5</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="shipping" role="tabpanel" aria-labelledby="shipping-tab"
+                            tabindex="0">
+                            <div class="row justify-content-center py-2">
+                                <div class="col-12 col-lg-10 col-xl-8">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <table class="table fz-sm text-gray-500">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Region</th>
+                                                        <th scope="col">Shipping Method</th>
+                                                        <th scope="col">Weight Range (kg)</th>
+                                                        <th scope="col">Shipping Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">North America</th>
+                                                        <td>Standard Shipping</td>
+                                                        <td>0 - 5</td>
+                                                        <td>$10.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">North America</th>
+                                                        <td>Express Shipping</td>
+                                                        <td>0 - 5</td>
+                                                        <td>$20.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">Europe</th>
+                                                        <td>Standard Shipping</td>
+                                                        <td>0 - 5</td>
+                                                        <td>$15.00</td>
+                                                    </tr>
+                                                    <!-- Add more rows for different regions, shipping methods, and price ranges as needed -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="py-5">
+        <div class="container  mb-5">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <h4 class="text-center fz-lg">You might also like</h4>
+                </div>
+
+                <!-- PRODUCT -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card mb-7">
+                        <div class="badge bg-dark card-badge card-badge-start text-uppercase">SALE</div>
+                        <a href="detail.html" class="product-link">
+                            <div class="card-img rounded-0 w-100">
+                                <div class="card-img-hover">
+                                    <img class="card-img-back" src="assets/image/product-1.jpg" alt="">
+                                    <div class="hover-icons">
+                                        <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                        <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body px-0">
+                            <div class="fz">
+                                <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                            </div>
+                            <div class="fw-bolder">
+                                <a href="#" class="text-black fw-medium">Leather mid-heel Sandals</a>
+                            </div>
+                            <div class="fw-medium text-gray-400">
+                                <span class="fz text-gray-400 text-decoration-line-through">$80.00</span>
+                                <span class="text-primary">$149.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card mb-7">
+                        <div class="badge text-bg-light card-badge card-badge-start text-uppercase">NEW</div>
+                        <a href="detail.html" class="product-link">
+                            <div class="card-img rounded-0 w-100">
+                                <div class="card-img-hover">
+                                    <img class="card-img-back" src="assets/image/product-11.jpg" alt="">
+                                    <div class="hover-icons">
+                                        <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                        <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body px-0">
+                            <div class="fz">
+                                <a href="#" class="text-opacity-50 text-black-50">Dresses</a>
+                            </div>
+                            <div class="fw-bolder">
+                                <a href="#" class="text-black fw-medium">Cotton floral print Dress</a>
+                            </div>
+                            <div class="fw-medium text-gray-400">
+                                <span class="fz text-gray-400 text-decoration-line-through">$80.00</span>
+                                <span class="text-primary">$40.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card mb-7">
+                        <a href="detail.html" class="product-link">
+                            <div class="card-img rounded-0 w-100">
+                                <div class="card-img-hover">
+                                    <img class="card-img-back" src="assets/image/product-12.jpg" alt="">
+                                    <div class="hover-icons">
+                                        <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                        <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body px-0">
+                            <div class="fz">
+                                <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                            </div>
+                            <div class="fw-bolder">
+                                <a href="#" class="text-black fw-medium">Heel strappy Sandals</a>
+                            </div>
+                            <div class="fw-medium text-gray-400">
+                                <span class="fz text-gray-400 text-decoration-line-through">$80.00</span>
+                                <span class="text-primary">$90.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card mb-7">
+                        <a href="detail.html" class="product-link">
+                            <div class="card-img rounded-0 w-100">
+                                <div class="card-img-hover">
+                                    <img class="card-img-back" src="assets/image/product-1.jpg" alt="">
+                                    <div class="hover-icons">
+                                        <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                        <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body px-0">
+                            <div class="fz">
+                                <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                            </div>
+                            <div class="fw-bolder">
+                                <a href="#" class="text-black fw-medium">Leather mid-heel Sandals</a>
+                            </div>
+                            <div class="fw-medium text-gray-400">
+                                $50.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- COMMENT -->
+    <section class="py-5">
+
+        <!-- TITLE comment -->
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-center fz-lg">Customer Reviews</h4>
+                </div>
+            </div>
+
+            <!-- STAR -->
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-auto">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle button_2 border-0 text-black fz" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sort By: Newest <i class="fa-solid fa-angle-down"></i>
+                        </a>
+
+                        <div class="dropdown-menu button">
+                            <div><a class="dropdown-item" href="#">Newest</a></div>
+                            <div><a class="dropdown-item" href="#">Oldest</a></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md text-md-center">
+                    <div class="rating text-dark fz-lg mb-4 mb-md-0 gap-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <strong class="fz-sm fw-medium text-gray-500">Reviews(3)</strong>
+                </div>
+
+                <div class="col-12 col-md-auto">
+
+                    <!-- Button -->
+                    <a class="btn btn-sm btn-dark button p-lg-3" data-bs-toggle="collapse" href="#reviewForm">
+                        Write Review
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- New Review -->
+            <div class="collapse" id="reviewForm">
+
+                <!-- Divider -->
+                <hr class="my-8">
+
+                <!-- Form -->
+                <form>
+                    <div class="row">
+                        <div class="col-12 mb-3 text-center">
+                            <p class="mb-1 fs-6">Score:</p>
+                            <div class="rating-form">
+                                <div class="rating h5 text-dark" data-value="5">
+                                    <span class="rating-item"><i class="fas fa-star"></i></span>
+                                    <span class="rating-item"><i class="fas fa-star"></i></span>
+                                    <span class="rating-item"><i class="fas fa-star"></i></span>
+                                    <span class="rating-item"><i class="fas fa-star"></i></span>
+                                    <span class="rating-item"><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group mb-3">
+                                <input class="form-control fz" id="reviewName" type="text" placeholder="Your Name *"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group mb-3">
+                                <input class="form-control fz" id="reviewEmail" type="email" placeholder="Your Email *"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <input class="form-control fz" id="reviewTitle" type="text" placeholder="Review Title *"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <textarea class="form-control fz" id="reviewText" rows="5" placeholder="Review *"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-outline-dark button p-3" type="submit">Post Review</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Content Comment -->
+        <div class="container mb-5">
+            <div class="card mb-3">
+                <div class="card-body button">
+                    <div class="row">
+                        <div class="col-12 col-md-auto">
+                            <img style="width: 80px;" src="assets/image/something (5).jpg"
+                                class="img-thumbnail rounded-circle border-0" alt="...">
+                        </div>
+                        <!-- <div class="col-9"> -->
+                        <div class="col-12 col-md">
+                            <div class="row">
+                                <!-- rate star -->
+                                <div class="row justify-content-start mb-2">
+                                    <div class="rating text-dark fz-sm mb-4 mb-md-0 gap-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <!-- user -->
+                                <h6 class="fz-sm text-gray-500 fw-normal">Darkness, 11 March 2024</h6>
+                            </div>
+
+                            <div class="row mt-2 mb-3">
+                                <h4 class="text-black fz">So Cute!</h4>
+                                <p class="fz-sm text-gray-500">Justo ut diam erat hendrerit. Morbi porttitor, per
+                                    eu. Sodales curabitur diam sociis.
+                                    Taciti lobortis nascetur. Ante laoreet odio hendrerit. Dictumst curabitur
+                                    nascetur
+                                    lectus potenti dis sollicitudin habitant quis vestibulum.</p>
+                            </div>
+
+                            <div class="row align-items-center">
+                                <div class="col-auto d-none d-lg-block">
+                                    <p class="mb-0 fz-sm">Was this review helpful?</p>
+                                </div>
+
+                                <div class="col-auto me-auto">
+                                    <div class="rate d-flex gap-2">
+                                        <a class="rate-item text-black fw-medium fz-sm" data-toggle="vote" data-count="3" href="#" role="button">
+                                            <i class="fa-regular fa-thumbs-up"></i> 1
+                                        </a>
+                                        <a class="rate-item text-black fw-medium fz-sm" data-toggle="vote" data-count="0" href="#" role="button">
+                                            <i class="fa-regular fa-thumbs-down"></i> 0
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto d-none d-lg-block">
+                                    <p class="fz-sm">Comments (1)</p>
+                                </div>
+
+                                <div class="col-auto">
+                                    <a class="btn btn-sm btn-dark button_2 p-2" data-bs-toggle="collapse" href="#commentForm">
+                                        Comment
+                                    </a>
+                                </div>
+
+                                <div class="collapse" id="commentForm">
+
+                                    <!-- Divider -->
+                                    <hr class="my-8">
+                    
+                                    <!-- Form -->
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group mb-3">
+                                                    <textarea class="form-control fz" id="reviewText" rows="5" placeholder="Review *"
+                                                        required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-outline-dark button p-2" type="submit">Send comment</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                    
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+<!-- Comment2 -->
+            <div class="card mb-3">
+                <div class="card-body button">
+                    <div class="row">
+                        <div class="col-12 col-md-auto">
+                            <img style="width: 80px;" src="assets/image/something (5).jpg"
+                                class="img-thumbnail rounded-circle border-0" alt="...">
+                        </div>
+                        <!-- <div class="col-9"> -->
+                        <div class="col-12 col-md">
+                            <div class="row">
+                                <!-- rate star -->
+                                <div class="row justify-content-start mb-2">
+                                    <div class="rating text-dark fz-sm mb-4 mb-md-0 gap-1">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <!-- user -->
+                                <h6 class="fz-sm text-gray-500 fw-normal">Darkness, 11 March 2024</h6>
+                            </div>
+
+                            <div class="row mt-2 mb-3">
+                                <h4 class="text-black fz">So Cute!</h4>
+                                <p class="fz-sm text-gray-500">Justo ut diam erat hendrerit. Morbi porttitor, per
+                                    eu. Sodales curabitur diam sociis.
+                                    Taciti lobortis nascetur. Ante laoreet odio hendrerit. Dictumst curabitur
+                                    nascetur
+                                    lectus potenti dis sollicitudin habitant quis vestibulum.</p>
+                            </div>
+
+                            <div class="row align-items-center">
+                                <div class="col-auto d-none d-lg-block">
+                                    <p class="mb-0 fz-sm">Was this review helpful?</p>
+                                </div>
+
+                                <div class="col-auto me-auto">
+                                    <div class="rate d-flex gap-2">
+                                        <a class="rate-item text-black fw-medium fz-sm" data-toggle="vote" data-count="3" href="#" role="button">
+                                            <i class="fa-regular fa-thumbs-up"></i> 1
+                                        </a>
+                                        <a class="rate-item text-black fw-medium fz-sm" data-toggle="vote" data-count="0" href="#" role="button">
+                                            <i class="fa-regular fa-thumbs-down"></i> 0
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto d-none d-lg-block">
+                                    <p class="fz-sm">Comments (1)</p>
+                                </div>
+
+                                <div class="col-auto">
+                                    <a class="btn btn-sm btn-dark button_2 p-2" data-bs-toggle="collapse" href="#commentForm-2">
+                                        Comment
+                                    </a>
+                                </div>
+
+                                <div class="collapse" id="commentForm-2">
+
+                                    <!-- Divider -->
+                                    <hr class="my-8">
+                    
+                                    <!-- Form -->
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group mb-3">
+                                                    <textarea class="form-control fz" id="reviewText" rows="5" placeholder="Review *"
+                                                        required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <button class="btn btn-outline-dark button p-2" type="submit">Send comment</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                    
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- REPLY COMMENT -->
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-auto">
+                                <i class="fa-solid fa-reply"></i>
+                                <img style="width: 80px;" src="assets/image/something (4).jpg"
+                                    class="img-thumbnail rounded-circle border-0" alt="...">
+                            </div>
+                            <!-- <div class="col-9"> -->
+                            <div class="col-12 col-md">
+                                <div class="row">
+                                    <!-- rate star -->
+                                    <div class="row justify-content-start mb-2">
+                                        <div class="rating text-dark fz-sm mb-4 mb-md-0 gap-1">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <!-- user -->
+                                    <h6 class="fz-sm text-gray-500 fw-normal">Darkness, 11 March 2024</h6>
+                                </div>
+    
+                                <div class="row mt-2 mb-3">
+                                    <h4 class="text-black fz">So Cute!</h4>
+                                    <p class="fz-sm text-gray-500">Justo ut diam erat hendrerit. Morbi porttitor, per
+                                        eu. Sodales curabitur diam sociis.
+                                        Taciti lobortis nascetur. Ante laoreet odio hendrerit. Dictumst curabitur
+                                        nascetur
+                                        lectus potenti dis sollicitudin habitant quis vestibulum.</p>
+                                </div>
+    
+                                <div class="row align-items-center">
+                                    <div class="col-auto d-none d-lg-block">
+                                        <p class="mb-0 fz-sm">Was this review helpful?</p>
+                                    </div>
+    
+                                    <div class="col-auto me-auto">
+                                        <div class="rate d-flex gap-2">
+                                            <a class="rate-item text-black fw-medium fz-sm" data-toggle="vote" data-count="3" href="#" role="button">
+                                                <i class="fa-regular fa-thumbs-up"></i> 1
+                                            </a>
+                                            <a class="rate-item text-black fw-medium fz-sm" data-toggle="vote" data-count="0" href="#" role="button">
+                                                <i class="fa-regular fa-thumbs-down"></i> 0
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-auto d-none d-lg-block">
+                                        <p class="fz-sm">Comments (1)</p>
+                                    </div>
+    
+                                    <div class="col-auto">
+                                        <a class="btn btn-sm btn-dark button_2 p-2" data-bs-toggle="collapse" href="#reply-2">
+                                            Comment
+                                        </a>
+                                    </div>
+    
+                                    <div class="collapse" id="reply-2">
+    
+                                        <!-- Divider -->
+                                        <hr class="my-8">
+                        
+                                        <!-- Form -->
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group mb-3">
+                                                        <textarea class="form-control fz" id="reviewText" rows="5" placeholder="Review *"
+                                                            required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 text-center">
+                                                    <button class="btn btn-outline-dark button p-2" type="submit">Send comment</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                        
+                                    </div>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+            </div>
+        </div>
+
+         <!-- PAGINATION -->
+         <nav class="d-flex justify-content-center">
+            <ul class="pagination pagination-sm text-gray-400 ">
+                <li class="page-item">
+                    <a class="page-link page-link-arrow" href="#">
+                        <i class="fa fa-caret-left"></i>
+                    </a>
+                </li>
+
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link page-link-arrow" href="#">
+                        <i class="fa fa-caret-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-truck text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">FREE SHIPPING</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">From all orders over $100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-retweet text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">FREE RETURN</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">Return money within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-lock text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">SECURE SHOPPING</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">You're in safe hands</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-tags text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">OVER 10,000 STYLES</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">We have everything you need</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- FOOTER -->
+        <footer class="footer_background bg-dark bg-cover pt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                        <h5 class="mb-5 text-center text-white">Want style Ideas and Treats?</h5>
+                        <form action="" class="mb-5">
+                            <div class="row gx-5 align-items-start">
+                                <div class="col w-50">
+                                    <input type="email" class="form-control form-control-gray-700 form-control-lg" placeholder="Enter Email">
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-gray-500 btn-lg">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                        <h4 class="mb-5 text-white">SKFTshop.</h4>
+                        <ul class="list-inline mb-3 mb-md-0 footer_icon">
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item ml-1">
+                                <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-messenger"></i></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">SUPPORT</h6>
+                            <li >
+                                <a href="#" class="text-gray-400 footer_text">Contact US</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">FAQs</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Size Guide</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Shipping & Return</a>
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">SHOP</h6>
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Men's</a>
+                            </li>
+    
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Shopping Women's</a>
+                            </li>
+    
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Shopping Kid's</a>
+                            </li>
+    
+                            <li>
+                                <a href="shop.html" class="text-gray-400 footer_text">Shopping Discounts</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">COMPANY</h6>
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Our Story</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Careers</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Terms & Conditions</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">Privacy & Cookie policy</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-sm text-start">
+                        <ul class="mb-4 mb-sm-0">
+                            <h6 class="mb-3 text-white">CONTACT</h6>
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">1-22222-3333</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">2-3333-44444</a>
+                            </li>
+    
+                            <li>
+                                <a href="#" class="text-gray-400 footer_text">help@sfktshop.com</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="footer_line mt-5 mb-3">
+                <div class="line mb-3"></div>
+                <div class="row justify-content-center align-items-center">
+                    <p class="text-center footer_text-end">© 2024 All rights reserved. Designed by Sofk.</p>
+                </div>
+            </div>
+        </footer>
+    
+
+
+
+
+    <script src="https://kit.fontawesome.com/84236ec286.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

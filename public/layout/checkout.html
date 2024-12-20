@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/SFKT_transparent.png" type="image/gif" sizes="100%" border-radius="50%">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SKFTshop</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/SFKT_transparent.png" alt="Bootstrap" width="60" height="60">
+                    </a>
+                </nav>
+
+                <button class="navbar-toggler button-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="contact.html"><i
+                                    class="fa-solid fa-envelope-open-text"></i> Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="faq.html"><i
+                                    class="fa-solid fa-circle-question"></i> FAQ</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="blog.html"><i
+                                    class="fa-solid fa-book-open"></i> Blog</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="shop.html"><i
+                                    class="fa-solid fa-store"></i> Shop</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <div class="search-icon">
+                                <a class="nav-link nav-hover  " aria-current="page" href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <input type="search" class="form-control search-input" placeholder="Search...">
+                            </div>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="wishlist.html"><i
+                                    class="fa-solid fa-heart"></i></a>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="cart.html">
+                                <i class="fa-solid fa-cart-shopping position-relative cart-icon">
+                                    <span class="position-absolute  badge ms-auto badge_content">
+                                        3
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample"><i
+                                    class="fa-solid fa-user"></i></a>
+                            <div class="dropdown-menu login_box" id="collapseWidthExample">
+                                <a class="dropdown-item login_box-item" href="signin.html" id="signIn">Sign in</a>
+                                <a class="dropdown-item login_box-item" href="login.html" id="logIn">Log in</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="minibanner pt-4 pb-3 justify-content-center">
+        <h6 class="text-center minibanner_text">⚡️ HAPPY HOLIDAY DEALS ON EVERYTHING ⚡️</h6>
+    </div>
+
+    <!-- LINK  -->
+    <section class="mt-1 ">
+        <div class="container">
+            <div class="row">
+                <!-- FILTER LIST -->
+                <div class="row align-items-center mb-2 mt-4">
+                    <div class="col-12 col-md">
+
+                        <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-gray-500 link_page "
+                                        href="index.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="cart.html">Shopping Cart</a>
+                                </li>
+
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="checkout.html">Checkout</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container">
+            <!-- Title -->
+            <div class="row">
+                <div class="col">
+                    <h3 class="mb-4 text-center">Checkout</h3>
+                    <div class="text-center fz-sm">Already have an account?<a class="fw-semibold text-reset" href="login.html">
+                            Click here to login</a></div>
+                </div>
+            </div>
+
+            <!-- CHECKOUT FORM -->
+            <div class="row mt-4">
+                <div class="col-12 col-md-7">
+                    <form action="{{ route('checkout') }}" method="POST">
+
+                        <!-- input -->
+                        <h5 class="mb-4">Billing Details</h5>
+                        <div class="row mb-5">
+                            <!-- First name -->
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="checkoutBillingFirstName" class="form-label">First Name *</label>
+                                    <input type="text" id="checkoutBillingFirstName"
+                                        class="form-control form-control-sm" placeholder="First Name">
+                                </div>
+                            </div>
+                            <!-- Last Name -->
+                            <div class="col-12 col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label for="checkoutBillingLastName" class="form-label">Last Name *</label>
+                                    <input type="text" id="checkoutBillingLastName" class="form-control form-control-sm"
+                                        placeholder="Last Name">
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="col-12 mb-3">
+                                <div class="form-group">
+                                    <label for="checkoutBillingEmail" class="form-label">Email *</label>
+                                    <input type="email" id="checkoutBillingEmail" class="form-control form-control-sm"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+                            <!-- Address -->
+                            <div class="col-12 mb-3">
+                                <div class="form-group">
+                                    <label for="checkoutBillingAddress" class="form-label">Address *</label>
+                                    <input type="email" id="checkoutBillingAddress" class="form-control form-control-sm"
+                                        placeholder="Address">
+                                </div>
+                            </div>
+
+                            <!-- CITY -->
+                            <div class="col-12 col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label for="checkoutBillingCity" class="form-label">Town / City *</label>
+                                    <input type="text" id="checkoutBillingCity" class="form-control form-control-sm"
+                                        placeholder="Town / City">
+                                </div>
+                            </div>
+                            <!-- ZIP / Code -->
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="checkoutBillingZipCode" class="form-label">Zip / Postcode *</label>
+                                    <input type="text" id="checkoutBillingZipCode" class="form-control form-control-sm"
+                                        placeholder="Zip / Postcode">
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="col-12 mb-3">
+                                <div class="form-group">
+                                    <label for="checkoutBillingMobilePhone" class="form-label">Mobile Phone *</label>
+                                    <input type="email" id="checkoutBillingMobilePhone"
+                                        class="form-control form-control-sm" placeholder="Mobile Phone">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ship table -->
+                        <h5 class="fw-medium">Shipping Details</h5>
+                        <div class="table-responsive mb-5">
+                            <table class="table table-bordered table-hover mb-0 text-center fz-sm text-gray-500 mb-3">
+
+                                <tbody>
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="form-check custom-radio">
+                                                <input type="radio" name="shippingOption" class="form-check-input">
+                                                <label for="" class="form-check-label text-body text-nowrap">Standard
+                                                    Shipping</label>
+                                            </div>
+                                        </td>
+                                        <td class="p-3">Delivery in 5 - 7 working days</td>
+                                        <td class="p-3">$8.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="form-check custom-radio">
+                                                <input type="radio" name="shippingOption" class="form-check-input">
+                                                <label for="" class="form-check-label text-body text-nowrap">Express
+                                                    Shipping</label>
+                                            </div>
+                                        </td>
+                                        <td class="p-3">Delivery in 3 - 5 working days</td>
+                                        <td class="p-3">$12.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="form-check custom-radio">
+                                                <input type="radio" name="shippingOption" class="form-check-input">
+                                                <label for="" class="form-check-label text-body text-nowrap">1 - 2
+                                                    Shipping</label>
+                                            </div>
+                                        </td>
+                                        <td class="p-3">Delivery in 1 - 2 working days</td>
+                                        <td class="p-3">$18.00</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="form-check custom-radio">
+                                                <input type="radio" name="shippingOption" class="form-check-input">
+                                                <label for="" class="form-check-label text-body text-nowrap">Free
+                                                    Shipping</label>
+                                            </div>
+                                        </td>
+                                        <td class="p-3">Living won't the He one every subdue meat replenish face was you
+                                            morning firmament darkness.</td>
+                                        <td class="p-3">$0.00</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label fz-sm text-gray-500" for="flexCheckDefault">
+                                    Ship to a different address?
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- payment -->
+
+                        <h5 class="fw-medium m-3">Payments</h5>
+                        <div class="list-group list-group-sm mb-4 ">
+                            <div class="list-group-item button rounded-0">
+                                <div class="form-check custom-radio button_2">
+                                    <input type="radio" name="shippingOption" class="form-check-input ">
+                                    <label for="" class="form-check-label text-gray-500 text-nowrap">Credit Card <img
+                                            src="assets/creditcard.svg" alt="" class="img-fluid"></label>
+                                </div>
+                            </div>
+
+                            <div class="list-group-item button rounded-0 mb-3">
+                                <div class="form-check custom-radio button_2">
+                                    <input type="radio" name="shippingOption" class="form-check-input">
+                                    <label for="" class="form-check-label text-gray-500 text-nowrap"><img
+                                            src="assets/paypal.svg" alt="" class="img-fluid"></label>
+                                </div>
+                            </div>
+
+                            <textarea class="form-control form-control-sm mb-4 mb-md-0 fz-sm text-gray-500 button"
+                                rows="5" placeholder="Order Notes (optional)"></textarea>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-4 offset-lg-1">
+                    <h5 class="fw-medium">Order Item(3)</h5>
+
+                    <ul class="list-group list-group-lg  list-group-flush-x mb-4">
+                        <li class="list-group-item  button_2 border-0">
+                            <hr class="my-4">
+                            <div class="row align-items-center button_2 border-0">
+                                <div class="col-4">
+                                    <a href="detail.html"><img src="assets/image/product-12.jpg" class="img-fluid"
+                                            alt=""></a>
+                                </div>
+
+                                <div class="col">
+                                    <p class="mb-4 fz fw-medium">
+                                        <a href="detail.html" class="text-body">Shoes</a>
+                                    </p>
+                                    <span class="text-body-secondary fw-medium">$40.00</span>
+                                    <div class="fz-sm text-body-secondary">
+                                        Size: M
+                                        <br>
+                                        Color: Red
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item  button_2 border-0">
+                            <hr class="my-4">
+                            <div class="row align-items-center button_2 border-0 mt-1">
+                                <div class="col-4">
+                                    <a href="detail.html"><img src="assets/image/product-1.jpg" class="img-fluid"
+                                            alt=""></a>
+                                </div>
+
+                                <div class="col">
+                                    <p class="mb-4 fz fw-medium">
+                                        <a href="detail.html" class="text-body">Shoes</a>
+                                    </p>
+                                    <span class="text-body-secondary fw-medium">$40.00</span>
+                                    <div class="fz-sm text-body-secondary">
+                                        Size: M
+                                        <br>
+                                        Color: Red
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!-- TOtal -->
+                    <div class="card mb-4 bg-light button fz-sm">
+                        <div class="card-body ">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span>Subtotal</span>
+                                    <span class="ms-auto mb-3">$90.00</span>
+                                </li>
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span>Tax</span>
+                                    <span class="ms-auto mb-3">$00.00</span>
+                                </li>
+
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span>Shipping</span>
+                                    <span class="ms-auto mb-3">$10.00</span>
+                                </li>
+
+                                <li class="list-group-item d-flex bg-light text-black mt-3">
+                                    <span class="fw-semibold ">Total</span>
+                                    <span class="ms-auto mb-3">$100.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Description -->
+                    <p class="mb-4 fz-sm text-gray-500">
+                        Your personal data will be used to process your order, support your experience throughout this
+                        website, and for other purposes described in our privacy policy.
+                    </p>
+
+                    <!-- Button -->
+
+                    <div class="btn button mt-4 p-3 w-100 btn-dark mb-2">
+                        Place Odder
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Near Footer -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-truck text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">FREE SHIPPING</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">From all orders over $100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-retweet text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">FREE RETURN</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">Return money within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-lock text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">SECURE SHOPPING</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">You're in safe hands</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="d-flex mb-6 mb-lg-0 gap-2">
+                        <i class="fa-solid fa-tags text-danger"></i>
+                        <div class="ms-6">
+                            <h6 class="heading-xxs mb-1 text-black fz-sm">OVER 10,000 STYLES</h6>
+                            <p class="mb-0 fs-sm text-body-secondary fz-sm">We have everything you need</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer_background bg-dark bg-cover pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                    <h5 class="mb-5 text-center text-white">Want style Ideas and Treats?</h5>
+                    <form action="" class="mb-5">
+                        <div class="row gx-5 align-items-start">
+                            <div class="col w-50">
+                                <input type="email" class="form-control form-control-gray-700 form-control-lg"
+                                    placeholder="Enter Email">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-gray-500 btn-lg">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-3 text-center">
+                    <h4 class="mb-5 text-white">SKFTshop.</h4>
+                    <ul class="list-inline mb-3 mb-md-0 footer_icon">
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">SUPPORT</h6>
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Contact US</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">FAQs</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Size Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Shipping & Return</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">SHOP</h6>
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Men's</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Shopping Women's</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Shopping Kid's</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Shopping Discounts</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">COMPANY</h6>
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Our Story</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Careers</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Privacy & Cookie policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">CONTACT</h6>
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">1-22222-3333</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">2-3333-44444</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">help@sfktshop.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer_line mt-5 mb-3">
+            <div class="line mb-3"></div>
+            <div class="row justify-content-center align-items-center">
+                <p class="text-center footer_text-end">© 2024 All rights reserved. Designed by Sofk.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/84236ec286.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

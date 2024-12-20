@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Icon logo.png" type="image/gif" sizes="100%" border-radius="50%">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SKFTshop</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/logo.png" alt="Bootstrap" width="60" height="60">
+                    </a>
+                </nav>
+
+                <button class="navbar-toggler button-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="contact.html"><i
+                                    class="fa-solid fa-envelope-open-text"></i> Trang chủ</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="contact.html"><i
+                                    class="fa-solid fa-envelope-open-text"></i> Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="faq.html"><i
+                                    class="fa-solid fa-circle-question"></i> FAQ</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="blog.html"><i
+                                    class="fa-solid fa-book-open"></i> Blog</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover fz fw-medium  " aria-current="page" href="shop.html"><i
+                                    class="fa-solid fa-store"></i> Shop</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <div class="search-icon">
+                                <a class="nav-link nav-hover  " aria-current="page" href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <input type="search" class="form-control search-input" placeholder="Search...">
+                            </div>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="wishlist.html"><i
+                                    class="fa-solid fa-heart"></i></a>
+                        </li>
+
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover  " aria-current="page" href="cart.html">
+                                <i class="fa-solid fa-cart-shopping position-relative cart-icon">
+                                    <span class="position-absolute  badge ms-auto badge_content">
+                                        3
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hover" data-bs-toggle="collapse"
+                                data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                aria-controls="collapseWidthExample"><i class="fa-solid fa-user"></i></a>
+                            <div class="dropdown-menu login_box" id="collapseWidthExample">
+                                <a class="dropdown-item login_box-item" href="signin.html" id="signIn">Sign in</a>
+                                <a class="dropdown-item login_box-item" href="login.html" id="logIn">Log in</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Banner__header -->
+    <div class="back-ground mb-5">
+        <div class="container banner-height">
+
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-lg-7 col-md-12  pb-4 pl-2 pr-4">
+                        <h1 class="intro-head mb-5 ">Welcome to <span class="strong__text">"Glamorous Finds"</span> -
+                            Your Ultimate Shopping Destination!</h1>
+                        <h5 class="intro-content  pb-4">Discover a world of style and convenience at Glamorous Finds,
+                            your go-to
+                            online shopping haven. Immerse yourself in a curated collection of fashion-forward clothing,
+                            accessories, and lifestyle essentials that redefine your wardrobe and elevate your everyday
+                            life.</h5>
+                        <a href="shop.html"><button type="button" class="btn btn-info">Shop Now !</button></a>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12">
+                        <img class="img-fluid banner-img" src="assets/banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- Session -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-3 w-50 text-center">
+                <h6 class="mb-3 text-gray-400">New Collection</h6>
+                <h2 class="mb-4">Best Picks 2024</h2>
+                <p class="mb-10 text-gray-500">
+                    Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very
+                    green.
+                </p>
+            </div>
+        </div>
+        <!-- Main category -->
+        <div class="row mb-5">
+            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column position-relative mt-4">
+                <img src="assets/image/image_cate_2.jpg " style="width: 100%; height: 100%;"
+                    class="img-fluid equal-height" alt="image-cate">
+                <div class="overlay text-center">
+                    <h2 class="title">Elegant Collection</h2>
+                    <a href="shop.html" class="text-start shop-now-link">Shop Now <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-7 col-lg-8 d-flex flex-column position-relative mt-4">
+                <img src="assets/image/image_cate_1.png" style="width: 100%; height: 100%;"
+                    class="img-fluid equal-height" alt="image-cate">
+                <div class="overlay text-center">
+                    <h2 class="title_2">Sweater Collection</h2>
+                    <a href="shop.html" class="text-start shop-now-link_2">Shop Now <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-7 col-lg-8 d-flex flex-column position-relative mt-4">
+                <img src="assets/image/image_cate_3.jpg" style="width: 100%; height: 100%;"
+                    class="img-fluid equal-height" alt="image-cate">
+                <div class="overlay text-center">
+                    <h2 class="title_2">Hat Collection</h2>
+                    <a href="shop.html" class="text-start shop-now-link_2">Shop Now <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column position-relative mt-4">
+                <img src="assets/image/image_cate_4.jpg " style="width: 100%; height: 100%;"
+                    class="img-fluid equal-height" alt="image-cate">
+                <div class="overlay text-center">
+                    <h2 class="title">Dress Collection</h2>
+                    <a href="shop.html" class="text-start shop-now-link">Shop Now <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top sale -->
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center mb-5 pt-5">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-3 w-50 text-center">
+                <h2 class="mb-4">Top months Sellers</h2>
+            </div>
+            <div class="nav justify-content-center mb-10">
+                <a class="nav-link active pl-1 pr-1" data-bs-toggle="tab" href="#">
+                    Shoes
+                </a>
+                <a class="nav-link pl-1 pr-1" data-bs-toggle="tab" href="#">
+                    Clothers
+                </a>
+                <a class="nav-link pl-1 pr-1" data-bs-toggle="tab" href="#">
+                    Hats
+                </a>
+
+                <a class="nav-link pl-1 pr-1" data-bs-toggle="tab" href="#">
+                    Dresses
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-start">
+
+            <!-- PRODUCT -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <div class="badge bg-dark card-badge card-badge-start text-uppercase">SALE</div>
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-1.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Leather mid-heel Sandals</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            <span class="fz text-gray-400 text-decoration-line-through">$80.00</span>
+                            <span class="text-primary">$149.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <div class="badge text-bg-light card-badge card-badge-start text-uppercase">NEW</div>
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-11.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Dresses</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Cotton floral print Dress</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            <span class="fz text-gray-400 text-decoration-line-through">$80.00</span>
+                            <span class="text-primary">$40.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-12.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Heel strappy Sandals</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            <span class="fz text-gray-400 text-decoration-line-through">$80.00</span>
+                            <span class="text-primary">$90.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-1.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Leather mid-heel Sandals</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            $50.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-121.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Dresses</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Cotton floral print Dress</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            $50.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-123.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Bags</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Suede cross body Bag</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            $50.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-7.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Shoes</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Leather Sneakers
+                            </a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            $50.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card mb-7">
+                    <a href="detail.html" class="product-link">
+                        <div class="card-img rounded-0 w-100">
+                            <div class="card-img-hover">
+                                <img class="card-img-back" src="assets/image/product-8.jpg" alt="">
+                                <div class="hover-icons">
+                                    <i class="fas fa-heart"></i> <!-- Icon yêu thích -->
+                                    <i class="fas fa-shopping-cart"></i> <!-- Icon giỏ hàng -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card-body px-0">
+                        <div class="fz">
+                            <a href="#" class="text-opacity-50 text-black-50">Tops</a>
+                        </div>
+                        <div class="fw-bolder">
+                            <a href="#" class="text-black fw-medium">Cropped cotton Top</a>
+                        </div>
+                        <div class="fw-medium text-gray-400">
+                            $29.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Discover  -->
+    <div class="container mt-5 mb-5">
+        <div class="row text-center mb-5">
+            <a href="#">
+                <h5 class="discover_title">Discover more product</h5>
+            </a>
+        </div>
+    </div>
+
+    <section class="background-image mb-5">
+        <div class="row justify-content-end">
+            <div class=" col-12 col-md-8 col-lg-6">
+                <h3 class="mb-5 background-image-title">Get 40% from <br> Spring Collection</h3>
+                <div class="datetime-container" id="datetime-container">
+                    <div class="datetime-container" id="datetime-container">
+                        <p id="countdown" class="countdown"></p>
+                    </div>
+                </div>
+
+                <a href="shop.html"><button type="button" class="btn btn-info btn-img">Shop now <i
+                            class="fa-solid fa-arrow-right-long"></i></button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEW -->
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-3 w-50 text-center">
+                <h6 class="mb-3 text-gray-400">WHAT CUSTOMER SAYS</h6>
+                <h2 class="mb-4">Lastest Customers Revivews</h2>
+            </div>
+        </div>
+        <div class="row mb-5 justify-content-between">
+            <div class="col-12 col-md-4 col-lg-4 mt-3">
+                <div class="card-lg card border">
+                    <div class="card-body">
+                        <div class="row align-items-center mb-5">
+                            <div class="col-4">
+                                <img src="assets/image/product-12.jpg" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-8 ml-2">
+                                <a href="#" class="fz text-opacity-50 text-black-50">Dresses</a>
+                                <a href="#" class="d-block fw-bolder text-black mt-2">Cropped cotton Top</a>
+                                <div class="rating mt-2">
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star-half-stroke"></i>
+                                    <i class="icon-star fa-regular fa-star"></i>
+                                </div>
+
+                            </div>
+                            <div class="mb-0 mt-3">
+                                <div class="text-black-50">
+                                    <p class="h6 writing">
+                                        Fill his waters wherein signs likeness waters. Second light gathered appear
+                                        sixth fourth, seasons behold creeping female.
+                                        Fill his waters wherein signs likeness waters. Second light gathered appear
+                                        sixth fourth, seasons behold creeping female.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-black-50">
+                            <p class="h6 writing">
+                                Giônxina, 16 May 2019
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4 mt-3">
+                <div class="card-lg card border">
+                    <div class="card-body">
+                        <div class="row align-items-center mb-5">
+                            <div class="col-4">
+                                <img src="assets/image/product-12.jpg" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-8 ml-2">
+                                <a href="#" class="fz text-opacity-50 text-black-50">Dresses</a>
+                                <a href="#" class="d-block fw-bolder text-black mt-2">Cropped cotton Top</a>
+                                <div class="rating mt-2">
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star-half-stroke"></i>
+                                    <i class="icon-star fa-regular fa-star"></i>
+                                </div>
+
+                            </div>
+                            <div class="mb-0 mt-3">
+                                <div class="text-black-50">
+                                    <p class="h6 writing">
+                                        Fill his waters wherein signs likeness waters. Second light gathered appear
+                                        sixth fourth, seasons behold creeping female.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-black-50">
+                            <p class="h6 writing">
+                                Giônxina, 16 May 2019
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4 mt-3">
+                <div class="card-lg card border">
+                    <div class="card-body">
+                        <div class="row align-items-center mb-5">
+                            <div class="col-4">
+                                <img src="assets/image/product-12.jpg" class="img-fluid" alt="...">
+                            </div>
+                            <div class="col-8 ml-2">
+                                <a href="#" class="fz text-opacity-50 text-black-50">Dresses</a>
+                                <a href="#" class="d-block fw-bolder text-black mt-2">Cropped cotton Top</a>
+                                <div class="rating mt-2">
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star"></i>
+                                    <i class="icon-star fa-solid fa-star-half-stroke"></i>
+                                    <i class="icon-star fa-regular fa-star"></i>
+                                </div>
+
+                            </div>
+                            <div class="mb-0 mt-3">
+                                <div class="text-black-50">
+                                    <p class="h6 writing">
+                                        Fill his waters wherein signs likeness waters. Second light gathered appear
+                                        sixth fourth, seasons behold creeping female.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-black-50">
+                            <p class="h6 writing">
+                                Giônxina, 16 May 2019
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <i class="dot_icon fa-solid fa-circle"></i>
+                <i class="dot_icon_active fa-solid fa-circle"></i>
+                <i class="dot_icon fa-solid fa-circle"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- BRAND -->
+
+    <div class="background_brand">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 col-xl-3 w-50 text-center mt-5">
+                    <h2 class="mb-4">@SFKTshop</h2>
+                    <p class="mb-10 text-gray-500">
+                        Appear, dry there darkness they're seas, dry waters.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row pb-5">
+                <div class="col-4 col-xl-2 col-md-4 d-flex flex-column mt-4">
+                    <img src="assets/image/something (1).jpg" class="img-fluid hover_opacity" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4 d-flex flex-column mt-4">
+                    <img src="assets/image/something (7).jpg" class="img-fluid hover_opacity" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4 d-flex flex-column mt-4">
+                    <img src="assets/image/something (2).jpg" class="img-fluid hover_opacity" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4 d-flex flex-column mt-4">
+                    <img src="assets/image/something (6).jpg" class="img-fluid hover_opacity" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4 d-flex flex-column mt-4">
+                    <img src="assets/image/something (3).jpg" class="img-fluid hover_opacity" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4 d-flex flex-column mt-4">
+                    <img src="assets/image/something (5).jpg" class="img-fluid hover_opacity" alt="...">
+                </div>
+            </div>
+
+            <div class="row pb-5">
+                <div class="col-4 col-xl-2 col-md-4  d-flex flex-column mt-4">
+                    <img src="assets/image/adidas.svg" class="img-fluid w-75 h-75" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4  d-flex flex-column mt-4">
+                    <img src="assets/image/zara.svg" class="img-fluid w-75 h-75" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4  d-flex flex-column mt-4">
+                    <img src="assets/image/bershka.svg" class="img-fluid w-75 h-75" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4  d-flex flex-column mt-4">
+                    <img src="assets/image/mango.svg" class="img-fluid w-75 h-75" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4  d-flex flex-column mt-4">
+                    <img src="assets/image/reebok.svg" class="img-fluid w-75 h-75" alt="...">
+                </div>
+                <div class="col-4 col-xl-2 col-md-4  d-flex flex-column mt-4">
+                    <img src="assets/image/stradivarius.svg" class="img-fluid w-75 h-75" alt="...">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer_background bg-dark bg-cover pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                    <h5 class="mb-5 text-center text-white">Want style Ideas and Treats?</h5>
+                    <form action="" class="mb-5">
+                        <div class="row gx-5 align-items-start">
+                            <div class="col w-50">
+                                <input type="email" class="form-control form-control-gray-700 form-control-lg"
+                                    placeholder="Enter Email">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-gray-500 btn-lg">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-3 text-center">
+                    <h4 class="mb-5 text-white">SKFTshop.</h4>
+                    <ul class="list-inline mb-3 mb-md-0 footer_icon">
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item ml-1">
+                            <a href="#" class="text-gray-400"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">SUPPORT</h6>
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Contact US</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">FAQs</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Size Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Shipping & Return</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">SHOP</h6>
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Men's</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Shopping Women's</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Shopping Kid's</a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html" class="text-gray-400 footer_text">Shopping Discounts</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">COMPANY</h6>
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Our Story</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Careers</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">Privacy & Cookie policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm text-start">
+                    <ul class="mb-4 mb-sm-0">
+                        <h6 class="mb-3 text-white">CONTACT</h6>
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">1-22222-3333</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">2-3333-44444</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-400 footer_text">help@sfktshop.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer_line mt-5 mb-3">
+            <div class="line mb-3"></div>
+            <div class="row justify-content-center align-items-center">
+                <p class="text-center footer_text-end">© 2024 All rights reserved. Designed by Sofk.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/84236ec286.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function updateCountdown() {
+            // Set the target date (365 days from now)
+            var targetDate = new Date();
+            targetDate.setDate(targetDate.getDate() + 365);
+
+            // Get the current date and time
+            var currentDate = new Date();
+
+            // Calculate the difference in milliseconds
+            var difference = targetDate - currentDate;
+
+            // Calculate days, hours, minutes, and seconds
+            var days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+
+            // Display the countdown
+            var countdownElement = document.getElementById('countdown');
+            countdownElement.innerHTML = "Countdown: " + days + "d " + hours + "h " + minutes + "m ";
+        }
+
+        // Update every second
+        setInterval(updateCountdown, 1000);
+
+        // Initial update
+        updateCountdown();
+    </script>
+    <script src="assets/javascript/script.js"></script>
+
+
+
+</body>
+
+</html>
